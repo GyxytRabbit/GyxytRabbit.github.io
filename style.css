@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  width: 100%;
+  height: 67px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ebe9e8;
+}
+h1 {
+  margin-left: 40px;
+}
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 40px;
+}
+ul > li {
+  padding: 20px;
+}
+ul > button {
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px 32px;
+  font-size: 16px;
+}
+
+.hero__wrapper {
+  background-image: url("bg-image.png");
+  height: calc(100vh - 67px);
+  background-size: cover;
+}
+
+.section_1 {
+  background-image: url("./bg-image.png");
+  height: calc(100vh - 67px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  padding-top: 100px;
+}
+.-section_1--h1 {
+  font-size: 64px;
+  color: white;
+}
+.-section_1--caly {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.-section_1--przyciski {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+}
+.-What_we_do_button {
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  padding: 16px 32px;
+  font-size: 16px;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.-section_1--dol {
+  margin-top: 250px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.-video--abutton {
+  height: 24px;
+  width: 24px;
+  display: flex;
+  color: white;
+}
